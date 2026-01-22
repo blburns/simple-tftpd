@@ -164,7 +164,7 @@ receivers:
   - name: 'default-receiver'
     email_configs:
       - to: 'admin@example.com'
-  
+
   - name: 'critical-alerts'
     email_configs:
       - to: 'oncall@example.com'

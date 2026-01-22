@@ -1,6 +1,6 @@
 # Enterprise Version Deployment Guide
 
-**Version:** Planned  
+**Version:** Planned
 **License:** BSL 1.1
 
 ---

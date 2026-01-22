@@ -1,6 +1,6 @@
 # Datacenter Version Deployment Guide
 
-**Version:** Planned  
+**Version:** Planned
 **License:** BSL 1.1
 
 ---
@@ -213,7 +213,7 @@ server {
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        
+
         # Health check
         proxy_next_upstream error timeout invalid_header http_500 http_502 http_503;
     }

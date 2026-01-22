@@ -69,7 +69,6 @@ Common documentation applicable to all versions:
 
 ### 🏭 Production Version Documentation
 - **[Production Guide](production/README.md)** - Complete Production Version documentation
-- **[Installation](production/installation.md)** - Production installation guide
 - **[Configuration](production/configuration.md)** - Production configuration reference
 - **[Deployment](production/deployment.md)** - Production deployment guide
 - **[Security](production/security.md)** - Production security best practices

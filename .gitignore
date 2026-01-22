@@ -69,7 +69,7 @@ Makefile.cmake
 *.vcxproj.user
 *.vcxproj.filters
 # Allow standardized workspace files (they should be tracked)
-!simple-ntpd.code-workspace
+!simple-tftpd.code-workspace
 *.code-workspace
 
 # OS generated files
@@ -187,9 +187,9 @@ packages/
 gmon.out
 callgrind.out.*
 
-# Core dumps
-core
-core.*
+# Core dumps (but not our src/core/ or include/*/core/ directories)
+/core$
+/core.*
 *.core
 *.dump
 
@@ -234,3 +234,4 @@ venv/
 node_modules/
 npm-debug.log*
 *.lock
+

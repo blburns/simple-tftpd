@@ -1,6 +1,6 @@
 # Production Version Installation Guide
 
-**Version:** 0.2.0-beta  
+**Version:** 0.2.0-beta
 **License:** Apache 2.0
 
 ---
